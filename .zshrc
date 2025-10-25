@@ -120,3 +120,4 @@ source $ZSH/oh-my-zsh.sh
 alias ffa='~/.local/bin/fastfetch_auto.sh'
 alias reales='~/.realesrgan/realesrgan-ncnn-vulkan'
 [[ -f "$HOME/.cache/wal/colors.sh" ]] && source "$HOME/.cache/wal/colors.sh"
+
