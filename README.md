@@ -8,6 +8,9 @@
 
 > *"I spent more time customizing my terminal than actually using it"* - Ancient Linux Proverb
 
+![Linux Rice Full Setup](screenshots/full-setup.png)
+*The whole shebang - when all your terminal windows align perfectly*
+
 ## 🎭 What's This?
 
 Welcome to my dotfiles! AKA **"I Spent More Time Configuring My Terminal Than Actually Using It"** - The Repository™
