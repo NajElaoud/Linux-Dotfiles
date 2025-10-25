@@ -4,7 +4,7 @@
 ## What is this sorcery?
 
 This repo lives at: `https://github.com/NajElaoud/Linux-Dotfiles`  
-It’s a carefully curated set of dotfiles, configs and wallpapers so that your Linux machine (or mine AKA My Linux rice 🥢🍚) doesn’t look like a boring “just another Ubuntu terminal”.
+It’s a carefully curated set of dotfiles, configs and wallpapers so that your Linux machine (or mine) doesn’t look like a boring “just another Ubuntu terminal”.
 
 With this you get  
 - zsh with fancy prompt (Powerlevel10k)  
