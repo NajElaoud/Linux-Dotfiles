@@ -16,6 +16,24 @@ With this you get
 
 In short: clone this, run the installer (or symlink manually), and you instantly have a laptop that says “I care about how my terminal looks”.
 
+
+## ⚠️ Disclaimer of Chaos
+
+So, fun fact:  
+👉 This is my **first ever Linux rice**,  
+👉 My **first time working with dotfiles**,  
+👉 And my **first upload to GitHub** in this category.
+
+So if your machine explodes, starts booting into Windows, or your cat starts typing `rm -rf /`, please know that I didn’t mean it. 😅  
+So… I *really* hope it doesn’t break my machine — or yours. 😬  
+
+If it does, well... at least we’ll both have learned something about backups.
+**Please use Timeshift** (or whatever backup tool you love)  
+before you try anything — trust me, I learned it the hard way.  
+
+Use it, break it, tweak it — but don’t call tech support.  
+You *are* tech support now.
+
 ---
 
 ## Repo Layout (so you don’t angrily grep through everything)
@@ -63,12 +81,16 @@ git clone https://github.com/NajElaoud/Linux-Dotfiles.git ~/linux-dotfiles
 cd ~/linux-dotfiles
 bash .script/install.sh
 
-If .script/install.sh doesn’t exist: don’t worry — jump to Manual Setup below.
+If .script/install.sh doesn’t exist: don’t worry — it’s probably because I’m still tweaking it at 2 a.m.
+(Check back soon or see the manual section below... actually, no, don’t — read below 👇)
 ```
 
 ## Manual Setup (the “I like control” mode)
 ```bash
-I am still working on this part
+Still working on it 👷‍♂️ — coming soon once I finish testing so it doesn’t nuke /home
+or summon Linus Torvalds personally to flip me off for the shit I did.
+
+For now, use the Quick Install (it’s not that scary, I promise). 😅
 ```
 
 ---
