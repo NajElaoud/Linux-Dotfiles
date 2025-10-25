@@ -1,0 +1,15 @@
+#!/bin/bash
+WAL_BIN="$HOME/.local/bin/wal"
+# Use Variety's environment variable if available
+if [ -n "$VARIETY_WALLPAPER" ]; then
+    WALLPAPER="$VARIETY_WALLPAPER"
+else
+    # Fallback to gsettings method
+    WALLPAPER=$(gsettings get org.gnome.desktop.background picture-uri | sed "s/^'file:\/\///;s/'$//")
+fi
+
+# Run pywal
+"$WAL_BIN" -i "$WALLPAPER"
+
+# Optional: reload terminal if needed
+# pkill -USR1 kitty 2>/dev/null || true
