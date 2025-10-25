@@ -1,4 +1,5 @@
 0
+/home/LoOtGobLiN/Pictures/Wallpaper/Relaxed_Mario.png
 /home/LoOtGobLiN/Pictures/Wallpaper/Anime-Purple-eyes.png
 /home/LoOtGobLiN/Pictures/Wallpaper/wallhaven-e87mqo_1920x1080.png
 /home/LoOtGobLiN/Pictures/Wallpaper/0345.jpg
@@ -98,4 +99,3 @@
 /home/LoOtGobLiN/Pictures/Wallpaper/0419.jpg
 /home/LoOtGobLiN/Pictures/Wallpaper/4597943-trees-stars-sky-shooting-stars-animal-ears-rabbits-animals-space-art-anime-girls.jpg
 /home/LoOtGobLiN/Pictures/Wallpaper/sakura-bw.png
-/home/LoOtGobLiN/Pictures/Wallpaper/Genshin_Hutao.png
