@@ -1,0 +1,492 @@
+GNU DDD 3.3.12 (x86_64-pc-linux-gnu)
+Copyright (C) 1995-1999 Technische Universität Braunschweig, Germany.
+Copyright (C) 1999-2001 Universität Passau, Germany.
+Copyright (C) 2001 Universität des Saarlandes, Germany.
+Copyright (C) 2001-2009 Free Software Foundation, Inc.
+
+Compiled with GCC 13.2.0, GNU libc 2.39
+Requires X11R6, Xt11R7, Motif 2.3.8 (Motif Version 2.3.8)
+Includes XPM 3.4.11, Athena Panner (7000002L), DDD core
+Built 2024-04-01 by William Grant <wgrant@ubuntu.com>.
+$  ddd exercice2_Array.c
++  /bin/sh -c 'exec gdb -q -fullname '\''exercice2_Array.c'\'''
+#  Hello, world!
+#  Opening session "10131bf6a7e9d54fe8176017763554167700000024360093"...
+#  Enabling core dumps...
+#  Enabling core dumps...done.
+#  Running GDB (pid 17818, tty /dev/pts/1)...
+#  Current language: C/C++
+#  Searching "vsllib/ddd.vsl"...
+#  Trying "/home/LoOtGobLiN/.ddd/vsllib/ddd.vsl"
+#  Trying "/usr/share/ddd/vsllib/ddd.vsl"
+#  Searching "vsllib/ddd.vsl"..."/usr/share/ddd/vsllib/ddd.vsl".
+#  Creating "/home/LoOtGobLiN/.ddd/"...
+#  Creating "/home/LoOtGobLiN/.ddd/"...done.
+#  Creating "/home/LoOtGobLiN/.ddd/sessions/"...
+#  Creating "/home/LoOtGobLiN/.ddd/sessions/"...done.
+#  Creating "/home/LoOtGobLiN/.ddd/themes/"...
+#  Creating "/home/LoOtGobLiN/.ddd/themes/"...done.
+#  Creating "/home/LoOtGobLiN/.ddd/sessions/10131bf6a7e9d54fe8176017763554167700000024360093/"...
+#  Creating "/home/LoOtGobLiN/.ddd/sessions/10131bf6a7e9d54fe8176017763554167700000024360093/"...done.
+#  Saving session in "/home/LoOtGobLiN/.ddd/sessions/10131bf6a7e9d54fe8176017763554167700000024360093/init"...
+#  Searching "ddd/Ddd"...
+#  Trying "/home/LoOtGobLiN/.ddd/ddd/Ddd"
+#  Trying "/usr/share/ddd/ddd/Ddd"
+#  Searching "ddd/Ddd"..."/usr/share/ddd/ddd/Ddd".
+#  Saving session in "/home/LoOtGobLiN/.ddd/sessions/10131bf6a7e9d54fe8176017763554167700000024360093/init"...done.
+2025.10.11 11:13:56
+<- "\"/home/LoOtGobLiN/RTOS_Assignement/Formation/exercice2_Array.c\": not in executable format: file format not recognized\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "set prompt (gdb) \n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "set height 0\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "set width 0\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "set annotate 1\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> " set verbose off\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info line\n"
+2025.10.11 11:13:56
+<- "No line number information available.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "list\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line\n"
+2025.10.11 11:13:56
+<- "No line number information available.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "output 4711\n"
+2025.10.11 11:13:56
+<- "4711(gdb) "
+2025.10.11 11:13:56
+-> "show language\n"
+2025.10.11 11:13:56
+<- "The current source language is \"auto; currently c\".\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "show version\n"
+2025.10.11 11:13:56
+<- "GNU gdb (Ubuntu 15.0.50.20240403-0ubuntu1) 15.0.50.20240403-git\n"
+   "Copyright (C) 2024 Free Software Foundation, Inc.\n"
+   "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+   "This is free software: you are free to change and redistribute it.\n"
+   "There is NO WARRANTY, to the extent permitted by law.\n"
+   "Type \"show copying\" and \"show warranty\" for details.\n"
+   "This GDB was configured as \"x86_64-linux-gnu\".\n"
+   "Type \"show configuration\" for configuration details.\n"
+   "For bug reporting instructions, please see:\n"
+   "<https://www.gnu.org/software/gdb/bugs/>.\n"
+   "Find the GDB manual and other documentation resources online at:\n"
+   "    <http://www.gnu.org/software/gdb/documentation/>.\n"
+   "\n"
+   "For help, type \"help\".\n"
+   "Type \"apropos word\" to search for commands related to \"word\".\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "pwd\n"
+2025.10.11 11:13:56
+<- "Working directory /home/LoOtGobLiN/RTOS_Assignement/Formation.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info breakpoints\n"
+2025.10.11 11:13:56
+<- "No breakpoints, watchpoints, tracepoints, or catchpoints.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "show history filename\n"
+2025.10.11 11:13:56
+<- "The filename in which to record the command history is \"/home/LoOtGobLiN/RTOS_Assignement/Formation/.gdb_history\".\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "show history size\n"
+2025.10.11 11:13:56
+<- "The size of the command history is 256.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info sources\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command."
+2025.10.11 11:13:56
+<- "\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info line MAIN\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info files\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info line main_\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info program\n"
+2025.10.11 11:13:56
+<- "The program being debugged is not being run.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line MAIN_\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line main__\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line MAIN__\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line _main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line _MAIN\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command."
+2025.10.11 11:13:56
+<- "\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line __main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line __MAIN\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line my_main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line the_main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line vxworks_main\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info line main_vxworks\n"
+2025.10.11 11:13:56
+<- "No symbol table is loaded.  Use the \"file\" command.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "set confirm off\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "source /tmp/dddpYX3U2\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info breakpoints\n"
+2025.10.11 11:13:56
+<- "No breakpoints, watchpoints, tracepoints, or catchpoints.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "# reset\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info breakpoints\n"
+2025.10.11 11:13:56
+<- "No breakpoints, watchpoints, tracepoints, or catchpoints.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "display\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info display\n"
+2025.10.11 11:13:56
+<- "There are no auto-display expressions now.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "set environment TERM dumb\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info source\n"
+2025.10.11 11:13:56
+<- "No current source file.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "info files\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "info program\n"
+2025.10.11 11:13:56
+<- "The program being debugged is not being run.\n"
+   "(gdb) "
+#  Creating options in "/home/LoOtGobLiN/.ddd/init"...
+#  Creating options in "/home/LoOtGobLiN/.ddd/init"...done.
+#  Opening session "10131bf6a7e9d54fe8176017763554167700000024360093"...done.
+#  Welcome to DDD 3.3.12 "Dale Head" (x86_64-pc-linux-gnu)
+2025.10.11 11:13:56
+-> "help detach\n"
+2025.10.11 11:13:56
+<- "Detach a process or file previously attached.\n"
+   "If a process, it is no longer traced, and it continues its execution.  If\n"
+   "you were debugging a file, the file is closed and gdb no longer accesses it.\n"
+   "\n"
+   "List of detach subcommands:\n"
+   "\n"
+   "detach checkpoint -- Detach from a checkpoint (experimental).\n"
+   "detach inferiors -- Detach from inferior ID (or list of IDS).\n"
+   "\n"
+   "Type \"help detach\" followed by detach subcommand name for full documentation.\n"
+   "Type \"apropos word\" to search for commands related to \"word\".\n"
+   "Type \"apropos -v word\" for full documentation of commands related to \"word\".\n"
+   "Command name abbreviations are allowed if unambiguous.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help run\n"
+2025.10.11 11:13:56
+<- "run, r\n"
+   "Start debugged program.\n"
+   "You may specify arguments to give it.\n"
+   "Args may include \"*\", or \"[...]\"; they are expanded using the\n"
+   "shell that will start the program (specified by the \"$SHELL\" environment\n"
+   "variable).  Input and output redirection with \">\", \"<\", or \">>\"\n"
+   "are also allowed.\n"
+   "\n"
+   "With no arguments, uses arguments last specified (with \"run\" or \n"
+   "\"set args\").  To cancel previous arguments and run with no arguments,\n"
+   "use \"set args\" without arguments.\n"
+   "\n"
+   "To start the inferior without using a shell, use \"set startup-with-shell off\".\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help step\n"
+2025.10.11 11:13:56
+<- "step, s\n"
+   "Step program until it reaches a different source line.\n"
+   "Usage: step [N]\n"
+   "Argument N means step N times (or till program stops for another reason).\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help stepi\n"
+2025.10.11 11:13:56
+<- "stepi, si\n"
+2025.10.11 11:13:56
+<- "Step one instruction exactly.\n"
+   "Usage: stepi [N]\n"
+   "Argument N means step N times (or till program stops for another reason).\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help next\n"
+2025.10.11 11:13:56
+<- "next, n\n"
+   "Step program, proceeding through subroutine calls.\n"
+   "Usage: next [N]\n"
+   "Unlike \"step\", if the current source line calls a subroutine,\n"
+   "this command does not enter the subroutine, but instead steps over\n"
+   "the call, in effect treating it as a single source line.\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "help nexti\n"
+2025.10.11 11:13:56
+<- "nexti, ni\n"
+   "Step one instruction, but proceed through subroutine calls.\n"
+   "Usage: nexti [N]\n"
+   "Argument N means step N times (or till program stops for another reason).\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help until\n"
+2025.10.11 11:13:56
+<- "until, u\n"
+   "Execute until past the current line or past a LOCATION.\n"
+   "Execute until the program reaches a source line greater than the current\n"
+   "or a specified location (same args as break command) within the current frame.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help finish\n"
+2025.10.11 11:13:56
+<- "finish, fin\n"
+   "Execute until selected stack frame returns.\n"
+   "Usage: finish\n"
+   "Upon return, the value returned is printed and put in the value history.\n"
+   "(gdb) "
+2025.10.11 11:13:56
+-> "help cont\n"
+2025.10.11 11:13:56
+<- "continue, fg, c\n"
+2025.10.11 11:13:56
+<- "Continue program being debugged, after signal or breakpoint.\n"
+   "Usage: continue [N]\n"
+   "If proceeding from breakpoint, a number N may be used as an argument,\n"
+   "which means to set the ignore count of that breakpoint to N - 1 (so that\n"
+   "the breakpoint won\'t break until the Nth time it is reached).\n"
+   "\n"
+   "If non-stop mode is enabled, continue only the current thread,\n"
+   "otherwise all the threads in the program are continued.  To \n"
+   "continue all stopped threads in non-stop mode, use the -a option.\n"
+   "Specifying -a and an ignore count simultaneously is an error.\n"
+2025.10.11 11:13:56
+<- "(gdb) "
+2025.10.11 11:13:56
+-> "help signal\n"
+2025.10.11 11:13:56
+<- "Continue program with the specified signal.\n"
+   "Usage: signal SIGNAL\n"
+   "The SIGNAL argument is processed the same as the handle command.\n"
+   "\n"
+   "An argument of \"0\" means continue the program without sending it a signal.\n"
+   "This is useful in cases where the program stopped because of a signal,\n"
+   "and you want to resume the program while discarding the signal.\n"
+   "\n"
+   "In a multi-threaded program the signal is delivered to, or discarded from,\n"
+   "the current thread only.\n"
+   "(gdb) "
+2025.10.11 11:13:57
+-> "help kill\n"
+2025.10.11 11:13:57
+<- "Kill execution of program being debugged.\n"
+   "\n"
+   "List of kill subcommands:\n"
+   "\n"
+   "kill inferiors -- Kill inferior ID (or list of IDs).\n"
+   "\n"
+   "Type \"help kill\" followed by kill subcommand name for full documentation.\n"
+   "Type \"apropos word\" to search for commands related to \"word\".\n"
+   "Type \"apropos -v word\" for full documentation of commands related to \"word\".\n"
+   "Command name abbreviations are allowed if unambiguous.\n"
+2025.10.11 11:13:57
+<- "(gdb) "
+2025.10.11 11:13:57
+-> "help up\n"
+2025.10.11 11:13:57
+<- "Select and print stack frame that called this one.\n"
+   "An argument says how many frames up to go.\n"
+   "(gdb) "
+2025.10.11 11:13:57
+-> "help down\n"
+2025.10.11 11:13:57
+<- "down, dow, do\n"
+   "Select and print stack frame called by this one.\n"
+   "An argument says how many frames down to go.\n"
+   "(gdb) "
+2025.10.11 11:17:51
+<- "\033]4;0;#05050F\033\\\033]4;1;#38468D\033\\\033]4;2;#384BAC\033\\\033]4;3;#3454AC\033\\\033]4;4;#5055A0\033\\\033]4;5;#BF63BA\033\\\033]4;6;#50BEEA\033\\\033]4;7;#d7d4ea\033\\\033]4;8;#9694a3\033\\\033]4;9;#38468D\033\\\033]4;10;#384BAC\033\\\033]4;11;#3454AC\033\\\033]4;12;#5055A0\033\\\033]4;13;#BF63BA\033\\\033]4;14;#50BEEA\033\\\033]4;15;#d7d4ea\033\\\033]10;#d7d4ea\033\\\033]11;#05050F\033\\\033]12;#d7d4ea\033\\\033]13;#d7d4ea\033\\\033]17;#d7d4ea\033\\\033]19;#05050F\033\\\033]4;232;#05050F\033\\\033]4;256;#d7d4ea\033\\\033]708;#05050F\033\\"
+2025.10.11 11:22:52
+<- "\033]4;0;#08171C\033\\\033]4;1;#1B4560\033\\\033]4;2;#304A6A\033\\\033]4;3;#4E5372\033\\\033]4;4;#395A87\033\\\033]4;5;#536991\033\\\033]4;6;#586A94\033\\\033]4;7;#c6afbf\033\\\033]4;8;#8a7a85\033\\\033]4;9;#1B4560\033\\\033]4;10;#304A6A\033\\\033]4;11;#4E5372\033\\\033]4;12;#395A87\033\\\033]4;13;#536991\033\\\033]4;14;#586A94\033\\\033]4;15;#c6afbf\033\\\033]10;#c6afbf\033\\\033]11;#08171C\033\\\033]12;#c6afbf\033\\\033]13;#c6afbf\033\\\033]17;#c6afbf\033\\\033]19;#08171C\033\\\033]4;232;#08171C\033\\\033]4;256;#c6afbf\033\\\033]708;#08171C\033\\"
+2025.10.11 11:26:11
+-> "quit\n"
+#  GDB: EOF detected
+#  Running GDB (pid 17818, tty /dev/pts/1)...Exit 0.
+#  Saving options in "/home/LoOtGobLiN/.ddd/init"...
+#  Saving options in "/home/LoOtGobLiN/.ddd/init"...done.
+#  Deleting session "10131bf6a7e9d54fe8176017763554167700000024360093"...
+#  Current session is [none].
+#  Deleting session "10131bf6a7e9d54fe8176017763554167700000024360093"...done.
+#  Saving history in "/home/LoOtGobLiN/.ddd/history"...
+#  Saving history in "/home/LoOtGobLiN/.ddd/history"...done.
+#  Thanks for using DDD 3.3.12!
