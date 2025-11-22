@@ -1,0 +1,230 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/LoOtGobLiN/.config/fastfetch/logo/eva-01.png",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " ",
+    "bar": {
+      "width": 20,
+      "char": {
+        "elapsed": "▰",
+        "total": "▱"
+      },
+      "border": {
+        "left": "[",
+        "right": " ]"
+      },
+      "color": {
+        "elapsed": "#C41E3A",  /* Assassin Red */
+        "total": "#1a1a1a",
+        "border": "#8B7355"     /* Aged Leather */
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "keyWidth": 10,
+      "keyColor": "#E8E3D3"          /* Parchment */
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m              BROTHERHOOD SYSTEM              \u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "⚔  OS",
+      "keyColor": "#E8E3D3"
+    },
+    {
+      "type": "kernel",
+      "key": "├─🗡  Kernel",
+      "keyColor": "#D4C5B0"
+    },
+    {
+      "type": "packages",
+      "key": "├─📜 Packages",
+      "keyColor": "#C5B79A"
+    },
+    {
+      "type": "shell",
+      "key": "├─🛡  Shell",
+      "keyColor": "#B6A985"
+    },
+    {
+      "type": "localIP",
+      "key": "├─🎯 Local IP",
+      "keyColor": "#A79B70"
+    },
+    {
+      "type": "uptime",
+      "key": "├─⏳ Mission Time",
+      "keyColor": "#988D5B"
+    },
+    {
+      "type": "battery",
+      "key": "└─🔋 Synchronization",
+      "keyColor": "#897F46",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m               ANIMUS INTERFACE               \u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    "break",
+    {
+      "type": "de",
+      "key": "🏛  DE",
+      "keyColor": "#E8E3D3"
+    },
+    {
+      "type": "wm",
+      "key": "├─🗺  Window Manager",
+      "keyColor": "#D4C5B0"
+    },
+    {
+      "type": "lm",
+      "key": "├─🚪 Login Manager",
+      "keyColor": "#C5B79A"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├─🎨 WM Theme",
+      "keyColor": "#B6A985"
+    },
+    {
+      "type": "theme",
+      "key": "├─🌗 Color Themes",
+      "keyColor": "#A79B70"
+    },
+    {
+      "type": "icons",
+      "key": "├─🗝  System Icons",
+      "keyColor": "#988D5B"
+    },
+    {
+      "type": "font",
+      "key": "├─📖 System Fonts",
+      "keyColor": "#897F46"
+    },
+    {
+      "type": "terminal",
+      "key": "└─⌨  Terminal",
+      "keyColor": "#7A7131"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m                HARDWARE CODEX                   \u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    "break",
+    {
+      "type": "chassis",
+      "key": "⚙  PC",
+      "keyColor": "#E8E3D3"
+    },
+    {
+      "type": "board",
+      "key": "├─🔧 Board",
+      "keyColor": "#D4C5B0"
+    },
+    {
+      "type": "cpu",
+      "key": "├─⚡ CPU",
+      "keyColor": "#C5B79A",
+      "temp": true,
+      "freqNdigits": 1
+    },
+    {
+      "type": "memory",
+      "key": "├─💾 RAM",
+      "keyColor": "#B6A985",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "swap",
+      "key": "├─🔄 Zram",
+      "keyColor": "#A79B70"
+    },
+    {
+      "type": "disk",
+      "key": "├─💿 Disk",
+      "keyColor": "#988D5B",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "gpu",
+      "key": "├─🎮 GPU",
+      "keyColor": "#897F46"
+    },
+    {
+      "type": "opengl",
+      "key": "├─✨ OpenGL",
+      "keyColor": "#7A7131"
+    },
+    {
+      "type": "vulkan",
+      "key": "├─🌋 Vulkan",
+      "keyColor": "#6B631C"
+    },
+    {
+      "type": "display",
+      "key": "└─🖥  Display(s)",
+      "keyColor": "#5C5507"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;139;115;85m \"Nothing is true, everything is permitted\"\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;196;30;58m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\u001b[0m"
+    }
+  ],
+  "otherKeysColor": "#8B7355" /* Aged leather for any other keys */
+}
+

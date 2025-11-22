@@ -1,0 +1,222 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/LoOtGobLiN/.config/fastfetch/logo/john_starrail.png",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " │ ",
+    "bar": {
+      "width": 25,
+      "char": {
+        "elapsed": "━",
+        "total": "─"
+      },
+      "border": {
+        "left": "╢",
+        "right": "╟"
+      },
+      "color": {
+        "elapsed": "#00ff41",
+        "total": "#1a1a1a",
+        "border": "#00d9ff"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;255;65m╔══════════════════════════════════════════════════════════╗"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;255;65m║  \u001b[38;2;0;217;255m>> SYSTEM.DIAGNOSTICS.INIT \u001b[38;2;0;255;65m                             ║"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;255;65m╚══════════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+      "type": "title",
+      "keyWidth": 18,
+      "keyColor": "#00ff41",
+      "key": "┌─[USER@HOST]"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "├─[OS]───────>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "kernel",
+      "key": "├─[KERNEL]───>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "packages",
+      "key": "├─[PACKAGES]─>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "shell",
+      "key": "├─[SHELL]────>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "localIP",
+      "key": "├─[LOCAL_IP]─>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "uptime",
+      "key": "├─[UPTIME]───>",
+      "keyColor": "#00ff41"
+    },
+    {
+      "type": "battery",
+      "key": "└─[BATTERY]──>",
+      "keyColor": "#00ff41",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;217;255m╔══════════════════════════════════════════════════════════╗"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;217;255m║  \u001b[38;2;138;43;226m>> ENVIRONMENT.CONFIG.LOAD \u001b[38;2;0;217;255m                             ║"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;217;255m╚══════════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+      "type": "de",
+      "key": "┌─[DE]────────>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "wm",
+      "key": "├─[WM]────────>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "lm",
+      "key": "├─[LOGIN_MGR]─>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├─[WM_THEME]──>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "theme",
+      "key": "├─[THEME]─────>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "icons",
+      "key": "├─[ICONS]─────>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "font",
+      "key": "├─[FONT]──────>",
+      "keyColor": "#00d9ff"
+    },
+    {
+      "type": "terminal",
+      "key": "└─[TERMINAL]──>",
+      "keyColor": "#00d9ff"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;138;43;226m╔══════════════════════════════════════════════════════════╗"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;138;43;226m║  \u001b[38;2;255;0;255m>> HARDWARE.PROBE.ACTIVE \u001b[38;2;138;43;226m                               ║"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;138;43;226m╚══════════════════════════════════════════════════════════╝"
+    },
+    "break",
+    {
+      "type": "chassis",
+      "key": "┌─[CHASSIS]───>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "board",
+      "key": "├─[BOARD]─────>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "cpu",
+      "key": "├─[CPU]───────>",
+      "keyColor": "#8a2be2",
+      "temp": true,
+      "freqNdigits": 1
+    },
+    {
+      "type": "memory",
+      "key": "├─[RAM]───────>",
+      "keyColor": "#8a2be2",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "swap",
+      "key": "├─[SWAP]──────>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "disk",
+      "key": "├─[DISK]──────>",
+      "keyColor": "#8a2be2",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "gpu",
+      "key": "├─[GPU]───────>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "opengl",
+      "key": "├─[OPENGL]────>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "vulkan",
+      "key": "├─[VULKAN]────>",
+      "keyColor": "#8a2be2"
+    },
+    {
+      "type": "display",
+      "key": "└─[DISPLAY]───>",
+      "keyColor": "#8a2be2"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;0;255;65m>> \u001b[38;2;0;217;255mSTATUS: \u001b[38;2;0;255;65m[OK] \u001b[38;2;138;43;226mALL_SYSTEMS_OPERATIONAL"
+    },
+    "break"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    // "source": "~/.config/fastfetch/logo/john_starrail.png",
+    "source": "~/.config/fastfetch/ASCII/logo.txt",
+    "color": {
+      "1": "black",
+      "2": "cyan",
+      "3": "yellow",
+      "4": "blue",
+      "5": "white",
+      "6": "red"
+    },
+    "padding": {
+      "top": 0,
+      "left": 0,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": " ➜ ",
+    "color": {
+      "keys": "magenta",
+      "title": "cyan"
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+    },
+    {
+      "type": "title",
+      "format": "┃ {user-name-colored}@{host-name-colored}    {#31}███{#32}███{#33}███{#34}███{#35}███{#36}███{#}       ┃",
+      "color": {
+        "user": "cyan",
+        "host": "magenta"
+      }
+    },
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    {
+      "type": "os",
+      "key": "  OS",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "kernel",
+      "key": "  Kernel",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "packages",
+      "key": "  Packages",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "  Shell",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "  Terminal",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    {
+      "type": "cpu",
+      "key": " 󰻠 CPU",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "gpu",
+      "key": " 󰢮 GPU",
+      "keyColor": "magenta",
+      "detectionMethod": "pci"
+    },
+    {
+      "type": "memory",
+      "key": "  RAM",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "disk",
+      "key": "  Disk",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    {
+      "type": "display",
+      "key": "  Display",
+      "keyColor": "yellow",
+      "compactType": "original"
+    },
+    {
+      "type": "de",
+      "key": "  DE",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wm",
+      "key": "  WM",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "wmtheme",
+      "key": "  Theme",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "icons",
+      "key": "  Icons",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "cursor",
+      "key": "  Cursor",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "font",
+      "key": "  Font",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime",
+      "keyColor": "green"
+    },
+    {
+      "type": "localip",
+      "key": " 󰩟 Local IP",
+      "keyColor": "green",
+      "compact": true
+    },
+    {
+      "type": "battery",
+      "key": " 󰂄 Battery",
+      "keyColor": "green"
+    },
+    {
+      "type": "poweradapter",
+      "key": "  Power",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    {
+      "type": "custom",
+      "format": "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+    }
+  ]
+}
+

@@ -1,0 +1,177 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/LoOtGobLiN/.config/fastfetch/logo/john_starrail.png",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " ",
+    "bar": {
+      "width": 20,
+      "char": {
+        "elapsed": "■",
+        "total": "□"
+      },
+      "border": {
+        "left": "[",
+        "right": " ]"
+      },
+      "color": {
+        "elapsed": "#ef4444",
+        "total": "#3f3f46",
+        "border": "#fbbf24"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "keyWidth": 10,
+      "keyColor": "#fef3c7"          /* Light Gray for titles */
+    },
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": "#fef3c7"
+    },
+    {
+      "type": "kernel",
+      "key": "├ Kernel",
+      "keyColor": "#fcd34d"
+    },
+    {
+      "type": "packages",
+      "key": "├󰏖 Packages",
+      "keyColor": "#facc15"
+    },
+    {
+      "type": "shell",
+      "key": "├ Shell",
+      "keyColor": "#eab308"
+    },
+    {
+      "type": "localIP",
+      "key": "├󰩟 Local IP",
+      "keyColor": "#ca8a04"
+    },
+    {
+      "type": "uptime",
+      "key": "├󰅐 Start Time",
+      "keyColor": "#a16207"
+    },
+    {
+      "type": "battery",
+      "key": "└ Battery",
+      "keyColor": "#854d0e",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    "break",
+    {
+      "type": "de",
+      "key": " DE",
+      "keyColor": "#eff6ff"
+    },
+    {
+      "type": "wm",
+      "key": "├󰧨 Window Manager",
+      "keyColor": "#dbeafe"
+    },
+    {
+      "type": "lm",
+      "key": "├󰧨 Login Manager",
+      "keyColor": "#bfdbfe"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├󰉼 WM Theme",
+      "keyColor": "#93c5fd"
+    },
+    {
+      "type": "theme",
+      "key": "├󰉼 Color Themes",
+      "keyColor": "#60a5fa"
+    },
+    {
+      "type": "icons",
+      "key": "├󰸉 System Icons",
+      "keyColor": "#3b82f6"
+    },
+    {
+      "type": "font",
+      "key": "├ System Fonts",
+      "keyColor": "#2563eb"
+    },
+    {
+      "type": "terminal",
+      "key": "└ Terminal",
+      "keyColor": "#1d4ed8"
+    },
+    "break",
+    {
+      "type": "chassis",
+      "key": "󰌢 PC",
+      "keyColor": "#f0fdf4"
+    },
+    {
+      "type": "board",
+      "key": "├ Board",
+      "keyColor": "#dcfce7"
+    },
+    {
+      "type": "cpu",
+      "key": "├󰻠 CPU",
+      "keyColor": "#bbf7d0",
+      "temp": true,
+      "freqNdigits": 1
+    },
+    {
+      "type": "memory",
+      "key": "├󰑭 RAM",
+      "keyColor": "#bbf7d0",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "swap",
+      "key": "├󰓡 Zram",
+      "keyColor": "#4ade80"
+    },
+    {
+      "type": "disk",
+      "key": "├ Disk",
+      "keyColor": "#4ade80",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "gpu",
+      "key": "├󰍛 GPU",
+      "keyColor": "#22c55e"
+    },
+    {
+      "type": "opengl",
+      "key": "├󰍛 OpenGL",
+      "keyColor": "#16a34a"
+    },
+    {
+      "type": "vulkan",
+      "key": "├󰍛 Vulkan",
+      "keyColor": "#15803d"
+    },
+    {
+      "type": "display",
+      "key": "└󰍹 Display(s)",
+      "keyColor": "#166534"
+    }
+  ],
+  "otherKeysColor": "#9ca3af" /* medium gray for any other keys if needed */
+}
+
