@@ -1,0 +1,202 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/LoOtGobLiN/.config/fastfetch/logo/john_starrail.png",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": " ",
+    "bar": {
+      "width": 20,
+      "char": {
+        "elapsed": "━",
+        "total": "─"
+      },
+      "border": {
+        "left": "『",
+        "right": "』"
+      },
+      "color": {
+        "elapsed": "#ff6b9d",  /* Anime pink */
+        "total": "#2d2d44",
+        "border": "#ffd700"     /* Gold accent */
+      }
+    }
+  },
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;219m▂▃▄▅▆▇██████████████████████▇▆▅▄▃▂\u001b[0m"
+    },
+    {
+      "type": "title",
+      "keyWidth": 10,
+      "keyColor": "#ff6b9d"  /* Bright anime pink */
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;219m▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔\u001b[0m"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "󰣇 OS",
+      "keyColor": "#ff6b9d"
+    },
+    {
+      "type": "kernel",
+      "key": "├ Kernel",
+      "keyColor": "#ff8fab"
+    },
+    {
+      "type": "packages",
+      "key": "├󰏖 Packages",
+      "keyColor": "#ffb3c1"
+    },
+    {
+      "type": "shell",
+      "key": "├ Shell",
+      "keyColor": "#ffc2d1"
+    },
+    {
+      "type": "localIP",
+      "key": "├󰩟 IP",
+      "keyColor": "#ffd1e0"
+    },
+    {
+      "type": "uptime",
+      "key": "├󰥔 Uptime",
+      "keyColor": "#ffe0ef"
+    },
+    {
+      "type": "battery",
+      "key": "└ Battery",
+      "keyColor": "#fff0f7",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;147m★ ═══════════════════════════════ ★\u001b[0m"
+    },
+    "break",
+    {
+      "type": "de",
+      "key": " DE",
+      "keyColor": "#c792ea"  /* Purple */
+    },
+    {
+      "type": "wm",
+      "key": "├󰨨 WM",
+      "keyColor": "#b084eb"
+    },
+    {
+      "type": "lm",
+      "key": "├󰨨 Login",
+      "keyColor": "#9d76ec"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├󰉼 WM Theme",
+      "keyColor": "#8a68ed"
+    },
+    {
+      "type": "theme",
+      "key": "├󰉼 Theme",
+      "keyColor": "#775aee"
+    },
+    {
+      "type": "icons",
+      "key": "├󰸉 Icons",
+      "keyColor": "#644cef"
+    },
+    {
+      "type": "font",
+      "key": "├ Font",
+      "keyColor": "#513ef0"
+    },
+    {
+      "type": "terminal",
+      "key": "└ Terminal",
+      "keyColor": "#3e30f1"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;87m✦ ═══════════════════════════════ ✦\u001b[0m"
+    },
+    "break",
+    {
+      "type": "chassis",
+      "key": "󰌢 PC",
+      "keyColor": "#82aaff"  /* Cyan blue */
+    },
+    {
+      "type": "board",
+      "key": "├ Board",
+      "keyColor": "#7ca5ff"
+    },
+    {
+      "type": "cpu",
+      "key": "├󰻠 CPU",
+      "keyColor": "#76a0ff",
+      "temp": true,
+      "freqNdigits": 1
+    },
+    {
+      "type": "memory",
+      "key": "├󰍛 RAM",
+      "keyColor": "#709bff",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "swap",
+      "key": "├󰓡 Zram",
+      "keyColor": "#6a96ff"
+    },
+    {
+      "type": "disk",
+      "key": "├ Disk",
+      "keyColor": "#6491ff",
+      "percent": {
+        "type": ["bar", "bar-monochrome"]
+      }
+    },
+    {
+      "type": "gpu",
+      "key": "├󰘚 GPU",
+      "keyColor": "#5e8cff"
+    },
+    {
+      "type": "opengl",
+      "key": "├󰘚 OpenGL",
+      "keyColor": "#5887ff"
+    },
+    {
+      "type": "vulkan",
+      "key": "├󰘚 Vulkan",
+      "keyColor": "#5282ff"
+    },
+    {
+      "type": "display",
+      "key": "└󰹑 Display",
+      "keyColor": "#4c7dff"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;219m◆\u001b[0m \u001b[38;5;147m◆\u001b[0m \u001b[38;5;87m◆\u001b[0m \u001b[38;5;213m◆\u001b[0m \u001b[38;5;219m◆\u001b[0m \u001b[38;5;147m◆\u001b[0m \u001b[38;5;87m◆\u001b[0m \u001b[38;5;213m◆\u001b[0m \u001b[38;5;219m◆\u001b[0m \u001b[38;5;147m◆\u001b[0m \u001b[38;5;87m◆\u001b[0m \u001b[38;5;213m◆\u001b[0m"
+    },
+    "break"
+  ]
+}
+
